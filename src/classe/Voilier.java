@@ -42,6 +42,12 @@ public class Voilier extends Navire{
 
 
 	
+	@Override
+	public String toString() {
+		return "Voilier [nbVoiles=" + nbVoiles + ", passagersTotal=" + passagersTotal + "]";
+	}
+
+
 	// redefinition des methodes
 	@Override
 	public int getVitesseMaximale() {

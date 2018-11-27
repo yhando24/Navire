@@ -76,4 +76,12 @@ public abstract class Navire implements INavire {
 		return 0;
 	}
 
+	@Override
+	public String toString() {
+		return "Navire [immatriculation=" + immatriculation + ", nom=" + nom + "]";
+	}
+
+	
+	
+	
 }

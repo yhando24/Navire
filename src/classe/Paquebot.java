@@ -54,6 +54,20 @@ public class Paquebot extends Navire{
 	}
 
 	
+	
+	
+	@Override
+	public String toString() {
+		return "Paquebot [nbEquipage=" + nbEquipage + ", tonnageMax=" + tonnageMax + ", passagerPossible="
+				+ passagerPossible + "]";
+	}
+
+
+
+
+
+
+
 	// redefinition des methodes
 	@Override
 	public int getVitesseMaximale() {
